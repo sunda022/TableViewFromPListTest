@@ -13,15 +13,15 @@
 		492B717718CA950A00EAD1D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 492B717518CA950A00EAD1D7 /* InfoPlist.strings */; };
 		492B717918CA950A00EAD1D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 492B717818CA950A00EAD1D7 /* main.m */; };
 		492B717D18CA950A00EAD1D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 492B717C18CA950A00EAD1D7 /* AppDelegate.m */; };
-		492B718018CA950A00EAD1D7 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492B717E18CA950A00EAD1D7 /* Main_iPhone.storyboard */; };
-		492B718318CA950A00EAD1D7 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 492B718118CA950A00EAD1D7 /* Main_iPad.storyboard */; };
-		492B718618CA950A00EAD1D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 492B718518CA950A00EAD1D7 /* ViewController.m */; };
 		492B718818CA950A00EAD1D7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492B718718CA950A00EAD1D7 /* Images.xcassets */; };
 		492B718F18CA950A00EAD1D7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 492B718E18CA950A00EAD1D7 /* XCTest.framework */; };
 		492B719018CA950A00EAD1D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 492B716C18CA950A00EAD1D7 /* Foundation.framework */; };
 		492B719118CA950A00EAD1D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 492B717018CA950A00EAD1D7 /* UIKit.framework */; };
 		492B719918CA950A00EAD1D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 492B719718CA950A00EAD1D7 /* InfoPlist.strings */; };
 		492B719B18CA950B00EAD1D7 /* TableViewFromPListTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 492B719A18CA950B00EAD1D7 /* TableViewFromPListTestTests.m */; };
+		492B71A618CA952200EAD1D7 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 492B71A518CA952200EAD1D7 /* MainViewController.m */; };
+		492B71A818CA955C00EAD1D7 /* MainViewController_iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 492B71A718CA955C00EAD1D7 /* MainViewController_iphone.xib */; };
+		492B71AA18CA957100EAD1D7 /* MainViewController_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 492B71A918CA957100EAD1D7 /* MainViewController_ipad.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,16 +45,16 @@
 		492B717A18CA950A00EAD1D7 /* TableViewFromPListTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TableViewFromPListTest-Prefix.pch"; sourceTree = "<group>"; };
 		492B717B18CA950A00EAD1D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		492B717C18CA950A00EAD1D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		492B717F18CA950A00EAD1D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		492B718218CA950A00EAD1D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		492B718418CA950A00EAD1D7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		492B718518CA950A00EAD1D7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		492B718718CA950A00EAD1D7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		492B718D18CA950A00EAD1D7 /* TableViewFromPListTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewFromPListTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		492B718E18CA950A00EAD1D7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		492B719618CA950A00EAD1D7 /* TableViewFromPListTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableViewFromPListTestTests-Info.plist"; sourceTree = "<group>"; };
 		492B719818CA950A00EAD1D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		492B719A18CA950B00EAD1D7 /* TableViewFromPListTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewFromPListTestTests.m; sourceTree = "<group>"; };
+		492B71A418CA952200EAD1D7 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		492B71A518CA952200EAD1D7 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		492B71A718CA955C00EAD1D7 /* MainViewController_iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController_iphone.xib; sourceTree = "<group>"; };
+		492B71A918CA957100EAD1D7 /* MainViewController_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController_ipad.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,10 +116,10 @@
 			children = (
 				492B717B18CA950A00EAD1D7 /* AppDelegate.h */,
 				492B717C18CA950A00EAD1D7 /* AppDelegate.m */,
-				492B717E18CA950A00EAD1D7 /* Main_iPhone.storyboard */,
-				492B718118CA950A00EAD1D7 /* Main_iPad.storyboard */,
-				492B718418CA950A00EAD1D7 /* ViewController.h */,
-				492B718518CA950A00EAD1D7 /* ViewController.m */,
+				492B71A418CA952200EAD1D7 /* MainViewController.h */,
+				492B71A518CA952200EAD1D7 /* MainViewController.m */,
+				492B71A918CA957100EAD1D7 /* MainViewController_ipad.xib */,
+				492B71A718CA955C00EAD1D7 /* MainViewController_iphone.xib */,
 				492B718718CA950A00EAD1D7 /* Images.xcassets */,
 				492B717318CA950A00EAD1D7 /* Supporting Files */,
 			);
@@ -231,10 +231,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				492B718318CA950A00EAD1D7 /* Main_iPad.storyboard in Resources */,
 				492B718818CA950A00EAD1D7 /* Images.xcassets in Resources */,
-				492B718018CA950A00EAD1D7 /* Main_iPhone.storyboard in Resources */,
+				492B71AA18CA957100EAD1D7 /* MainViewController_ipad.xib in Resources */,
 				492B717718CA950A00EAD1D7 /* InfoPlist.strings in Resources */,
+				492B71A818CA955C00EAD1D7 /* MainViewController_iphone.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,8 +253,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				492B718618CA950A00EAD1D7 /* ViewController.m in Sources */,
 				492B717D18CA950A00EAD1D7 /* AppDelegate.m in Sources */,
+				492B71A618CA952200EAD1D7 /* MainViewController.m in Sources */,
 				492B717918CA950A00EAD1D7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,22 +284,6 @@
 				492B717618CA950A00EAD1D7 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		492B717E18CA950A00EAD1D7 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				492B717F18CA950A00EAD1D7 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		492B718118CA950A00EAD1D7 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				492B718218CA950A00EAD1D7 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		492B719718CA950A00EAD1D7 /* InfoPlist.strings */ = {
@@ -395,7 +379,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TableViewFromPListTest/TableViewFromPListTest-Prefix.pch";
 				INFOPLIST_FILE = "TableViewFromPListTest/TableViewFromPListTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -408,7 +394,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TableViewFromPListTest/TableViewFromPListTest-Prefix.pch";
 				INFOPLIST_FILE = "TableViewFromPListTest/TableViewFromPListTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
