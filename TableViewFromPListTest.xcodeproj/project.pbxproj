@@ -22,6 +22,7 @@
 		492B71A618CA952200EAD1D7 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 492B71A518CA952200EAD1D7 /* MainViewController.m */; };
 		492B71A818CA955C00EAD1D7 /* MainViewController_iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 492B71A718CA955C00EAD1D7 /* MainViewController_iphone.xib */; };
 		492B71AA18CA957100EAD1D7 /* MainViewController_ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 492B71A918CA957100EAD1D7 /* MainViewController_ipad.xib */; };
+		492B71AE18CA981100EAD1D7 /* courses.plist in Resources */ = {isa = PBXBuildFile; fileRef = 492B71AD18CA981100EAD1D7 /* courses.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		492B71A518CA952200EAD1D7 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		492B71A718CA955C00EAD1D7 /* MainViewController_iphone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController_iphone.xib; sourceTree = "<group>"; };
 		492B71A918CA957100EAD1D7 /* MainViewController_ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController_ipad.xib; sourceTree = "<group>"; };
+		492B71AD18CA981100EAD1D7 /* courses.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = courses.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				492B71A518CA952200EAD1D7 /* MainViewController.m */,
 				492B71A918CA957100EAD1D7 /* MainViewController_ipad.xib */,
 				492B71A718CA955C00EAD1D7 /* MainViewController_iphone.xib */,
+				492B71AD18CA981100EAD1D7 /* courses.plist */,
 				492B718718CA950A00EAD1D7 /* Images.xcassets */,
 				492B717318CA950A00EAD1D7 /* Supporting Files */,
 			);
@@ -233,6 +236,7 @@
 			files = (
 				492B718818CA950A00EAD1D7 /* Images.xcassets in Resources */,
 				492B71AA18CA957100EAD1D7 /* MainViewController_ipad.xib in Resources */,
+				492B71AE18CA981100EAD1D7 /* courses.plist in Resources */,
 				492B717718CA950A00EAD1D7 /* InfoPlist.strings in Resources */,
 				492B71A818CA955C00EAD1D7 /* MainViewController_iphone.xib in Resources */,
 			);

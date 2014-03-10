@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainViewController.h
 //  TableViewFromPListTest
 //
 //  Created by Chuck Preston on 3/7/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface MainViewController : UIViewController
 
 @end
